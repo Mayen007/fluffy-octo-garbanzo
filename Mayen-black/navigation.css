@@ -1,0 +1,9 @@
+.nav{
+    background-color: grey;
+    padding: 20px;
+}
+a{
+    font-size: 30px;
+    padding-right: 30px;
+    color: tomato;
+}

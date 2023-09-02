@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Enter your details:</h1>
+    <form>
+        <fieldset>
+            <label> Enter your first name:<input type="text" /> </label>
+            <label> Enter your last name:<input type="text" /> </label>
+            <label> Enter your email:<input type="text" /> </label>
+            <label> Enter your phone number:<input type="text" /> </label>
+            <label> Enter your password:<input type="password" /> </label>
+        </fieldset>
+        <fieldset>
+            <label> Male:<input type="radio" name="gender" /> </label>
+            <label> Famale:<input type="radio" name="gender" /> </label>
+            <label> Other:<input type="radio" name="gender" /> </label>
+            <label> pick file:<input type="file" /> </label>
+            <label> date:<input type="date" /> </label>
+            <label> time:<input type="time" /> </label>
+            <label> <input type="checkbox" /> accept </label>
+            <label>
+                <input type="search" placeholder="search" />
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="userAge"> Enter Age:
+                <input type="number" name="" id="user-age" min="13" max="40">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="selection">How did you hear about us?
+                <select name="" id="selection">
+                    <option value="0">(Select one)</option>
+                    <option value="1">Friends & family</option>
+                    <option value="2">Facebook</option>
+                    <option value="3">Website</option>
+                    <option value="4">Poster</option>
+                    <option value="5">Pinterest</option>
+                    <option value="6">Google</option>
+                    <option value="7">Through the news</option>
+                    <option value="8">Other</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="profileInfo">Add your Resume
+                <textarea name="profile-bio" id="profileInfo" cols="100" rows="30" placeholder="Tell us about yourself"></textarea>
+            </label>
+        </fieldset>
+        <br>
+       
+        <button>
+            <input type="submit" name="" value="Submit" id="">
+        </button>
+    </form>
+</body>
+
+</html>
