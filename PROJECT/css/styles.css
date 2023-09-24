@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* line-height: 1.8em; */
+  font-family: Tahoma, Verdana, Tahoma, sans-serif;
+}
+.brand {
+  font-weight: bold;
+  font-size: 2.6vw;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-size: 1.4vw;
+  font-style: italic;
+}
+
+.user-icon {
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-size: 2vw;
+}
+
+.icon-container {
+  margin-left: 1.5vw;
+}
+
+.small-image {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.images {
+  width: 20vmax;
+  height: 20vh;
+}
+.logo-image{
+  max-width: 5vw;
+}
