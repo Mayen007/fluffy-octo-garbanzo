@@ -1,19 +1,8 @@
-html {
-  scroll-behavior: smooth;
-}
-
 .brand {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
   text-transform: uppercase;
 }
-
-.user-icon {
-  color: rgb(255, 255, 255);
-  border-radius: 50px;
-  font-size: 2vw;
-}
-
 .small-image {
   width: 100px;
   height: auto;
