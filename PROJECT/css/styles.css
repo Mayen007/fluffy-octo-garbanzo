@@ -1,23 +1,49 @@
 .brand {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 24px;
   text-transform: uppercase;
 }
+
 .small-image {
-  width: 100px;
+  width: 90px;
   height: auto;
+  margin: 0 auto;
 }
 
 .images {
-  width: 300px;
+  width: 350px;
   height: auto;
+  margin: auto;
+
 }
 
 .logo-image {
-  max-width: 5vw;
+  width: 60px;
+  height: auto;
 }
 
 .carousel-image {
   width: 100%;
   height: auto;
+}
+
+.content-title {
+  text-align: left;
+}
+
+.carousel-caption-overlay {
+  position: absolute;
+  top: 40%;
+  left: 11%;
+  width: 40%;
+  height: auto;
+  opacity: 0.1;
+  color: #fff;
+  padding: 15px;
+
+}
+
+.carousel-caption-overlay:hover {
+  background-color: rgb(21, 21, 21);
+  opacity: 0.9;
 }
