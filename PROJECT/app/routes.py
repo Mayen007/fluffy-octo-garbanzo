@@ -14,8 +14,6 @@ from app.email import send_password_reset_email
 
 @app.route('/')
 @app.route('/index')
-# remove it after
-@login_required
 def index():
     return render_template('index.html', title='Home')
 
